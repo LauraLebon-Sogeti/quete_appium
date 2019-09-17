@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31442" started-at="2019-09-17T00:19:04 CEST" finished-at="2019-09-17T00:19:35 CEST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31442" started-at="2019-09-17T00:19:04 CEST" finished-at="2019-09-17T00:19:35 CEST">
+      <class name="tests.Testsuite">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.Testsuite@7f13d6e]" name="setup" is-config="true" duration-ms="29" started-at="2019-09-17T00:19:04 CEST" finished-at="2019-09-17T00:19:04 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:tests.Testsuite@7f13d6e]" name="testSetup" is-config="true" duration-ms="29057" started-at="2019-09-17T00:19:04 CEST" finished-at="2019-09-17T00:19:33 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="FAIL" signature="test2()[pri:0, instance:tests.Testsuite@7f13d6e]" name="test2" duration-ms="2318" started-at="2019-09-17T00:19:33 CEST" finished-at="2019-09-17T00:19:35 CEST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LFR026987', ip: '192.168.0.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: C:/Users/llebon/downloads/F..., appActivity: com.sogeti.inblue.findrive...., appPackage: com.sogeti.inblue.findrive, appWaitActivity: com.sogeti.inblue.findrive...., appWaitPackage: com.sogeti.inblue.findrive, databaseEnabled: false, desired: {app: C:/Users/llebon/downloads/F..., deviceName: Android Device, newCommandTimeout: 60, platformName: android, platformVersion: 8.0.0}, deviceManufacturer: Sony, deviceModel: F8331, deviceName: CB512EY1MG, deviceScreenSize: 1080x1920, deviceUDID: CB512EY1MG, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, platform: LINUX, platformName: ANDROID, platformVersion: 8.0.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: d04e79f2-3c6d-41bf-aca6-4535923be62c
+*** Element info: {Using=xpath, value=//android.widget.TextView[1]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LFR026987', ip: '192.168.0.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: C:/Users/llebon/downloads/F..., appActivity: com.sogeti.inblue.findrive...., appPackage: com.sogeti.inblue.findrive, appWaitActivity: com.sogeti.inblue.findrive...., appWaitPackage: com.sogeti.inblue.findrive, databaseEnabled: false, desired: {app: C:/Users/llebon/downloads/F..., deviceName: Android Device, newCommandTimeout: 60, platformName: android, platformVersion: 8.0.0}, deviceManufacturer: Sony, deviceModel: F8331, deviceName: CB512EY1MG, deviceScreenSize: 1080x1920, deviceUDID: CB512EY1MG, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, platform: LINUX, platformName: ANDROID, platformVersion: 8.0.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: d04e79f2-3c6d-41bf-aca6-4535923be62c
+*** Element info: {Using=xpath, value=//android.widget.TextView[1]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at tests.Testsuite.test2(Testsuite.java:32)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="SuiteTeardown()[pri:0, instance:tests.Testsuite@7f13d6e]" name="SuiteTeardown" is-config="true" duration-ms="2641" started-at="2019-09-17T00:19:36 CEST" finished-at="2019-09-17T00:19:38 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuiteTeardown -->
+      </class> <!-- tests.Testsuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
