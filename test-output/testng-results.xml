@@ -2,39 +2,39 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="31442" started-at="2019-09-17T00:19:04 CEST" finished-at="2019-09-17T00:19:35 CEST">
+  <suite name="Default suite" duration-ms="19139" started-at="2019-09-17T11:19:20 CEST" finished-at="2019-09-17T11:19:40 CEST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="31442" started-at="2019-09-17T00:19:04 CEST" finished-at="2019-09-17T00:19:35 CEST">
+    <test name="Default test" duration-ms="19139" started-at="2019-09-17T11:19:20 CEST" finished-at="2019-09-17T11:19:40 CEST">
       <class name="tests.Testsuite">
-        <test-method status="PASS" signature="setup()[pri:0, instance:tests.Testsuite@7f13d6e]" name="setup" is-config="true" duration-ms="29" started-at="2019-09-17T00:19:04 CEST" finished-at="2019-09-17T00:19:04 CEST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.Testsuite@711f39f9]" name="setup" is-config="true" duration-ms="24" started-at="2019-09-17T11:19:20 CEST" finished-at="2019-09-17T11:19:20 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="testSetup()[pri:0, instance:tests.Testsuite@7f13d6e]" name="testSetup" is-config="true" duration-ms="29057" started-at="2019-09-17T00:19:04 CEST" finished-at="2019-09-17T00:19:33 CEST">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:tests.Testsuite@711f39f9]" name="testSetup" is-config="true" duration-ms="18567" started-at="2019-09-17T11:19:21 CEST" finished-at="2019-09-17T11:19:39 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetup -->
-        <test-method status="FAIL" signature="test2()[pri:0, instance:tests.Testsuite@7f13d6e]" name="test2" duration-ms="2318" started-at="2019-09-17T00:19:33 CEST" finished-at="2019-09-17T00:19:35 CEST">
+        <test-method status="FAIL" signature="test2()[pri:0, instance:tests.Testsuite@711f39f9]" name="test2" duration-ms="525" started-at="2019-09-17T11:19:39 CEST" finished-at="2019-09-17T11:19:40 CEST">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[An element could not be located on the page using the given search parameters.
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LFR026987', ip: '192.168.0.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+System info: host: 'LFR026987', ip: '192.168.42.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
 Driver info: io.appium.java_client.AppiumDriver
 Capabilities {app: C:/Users/llebon/downloads/F..., appActivity: com.sogeti.inblue.findrive...., appPackage: com.sogeti.inblue.findrive, appWaitActivity: com.sogeti.inblue.findrive...., appWaitPackage: com.sogeti.inblue.findrive, databaseEnabled: false, desired: {app: C:/Users/llebon/downloads/F..., deviceName: Android Device, newCommandTimeout: 60, platformName: android, platformVersion: 8.0.0}, deviceManufacturer: Sony, deviceModel: F8331, deviceName: CB512EY1MG, deviceScreenSize: 1080x1920, deviceUDID: CB512EY1MG, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, platform: LINUX, platformName: ANDROID, platformVersion: 8.0.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
-Session ID: d04e79f2-3c6d-41bf-aca6-4535923be62c
+Session ID: 1c197782-ff15-4c09-8cea-c3e00a3011c7
 *** Element info: {Using=xpath, value=//android.widget.TextView[1]}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LFR026987', ip: '192.168.0.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+System info: host: 'LFR026987', ip: '192.168.42.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
 Driver info: io.appium.java_client.AppiumDriver
 Capabilities {app: C:/Users/llebon/downloads/F..., appActivity: com.sogeti.inblue.findrive...., appPackage: com.sogeti.inblue.findrive, appWaitActivity: com.sogeti.inblue.findrive...., appWaitPackage: com.sogeti.inblue.findrive, databaseEnabled: false, desired: {app: C:/Users/llebon/downloads/F..., deviceName: Android Device, newCommandTimeout: 60, platformName: android, platformVersion: 8.0.0}, deviceManufacturer: Sony, deviceModel: F8331, deviceName: CB512EY1MG, deviceScreenSize: 1080x1920, deviceUDID: CB512EY1MG, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, platform: LINUX, platformName: ANDROID, platformVersion: 8.0.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
-Session ID: d04e79f2-3c6d-41bf-aca6-4535923be62c
+Session ID: 1c197782-ff15-4c09-8cea-c3e00a3011c7
 *** Element info: {Using=xpath, value=//android.widget.TextView[1]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -93,7 +93,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="SuiteTeardown()[pri:0, instance:tests.Testsuite@7f13d6e]" name="SuiteTeardown" is-config="true" duration-ms="2641" started-at="2019-09-17T00:19:36 CEST" finished-at="2019-09-17T00:19:38 CEST">
+        <test-method status="PASS" signature="SuiteTeardown()[pri:0, instance:tests.Testsuite@711f39f9]" name="SuiteTeardown" is-config="true" duration-ms="1553" started-at="2019-09-17T11:19:40 CEST" finished-at="2019-09-17T11:19:41 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SuiteTeardown -->
