@@ -38,9 +38,16 @@ public class TestManager {
 		    //capabilities.setCapability(MobileCapabilityType.DEVICE_NAME,"Android Emulator");
 		    capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION,"8.0.0");
 		    capabilities.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 60);
+			
+			//ICI : Capabilities pour lancement Chrome
 		    //capabilities.setCapability(MobileCapabilityType.BROWSER_NAME,"Chrome");
-			capabilities.setCapability("appPackage", "io.appium.android.apis");
-			capabilities.setCapability("appActivity", "io.appium.android.apis.ApiDemos");
+			
+			//ici : capabilities pour appli déjà su tel
+			//capabilities.setCapability("appPackage", "io.appium.android.apis");
+		//	capabilities.setCapability("appActivity", "io.appium.android.apis.ApiDemos");
+			
+			//Ici : capabilities pour appli apk dans eclipse / sur ordi
+			capabilities.setCapability(MobileCapabilityType.APP, "C:/Users/llebon/Downloads/Rentalcar App_v3.34.0_apkpure.com.apk");
 		    
 		}
 		catch (Exception e) {
@@ -78,6 +85,6 @@ public class TestManager {
 		new File(folder_name).mkdir();
 		String file_name=df.format(new Date())+".png";
 		FileUtils.copyFile(f, new File(folder_name + "/" + file_name));
-		System.out.println("La capture d'�cran a fonctionn�.");
+		System.out.println("La capture d'écran a fonctionné.");
 	}
 }
